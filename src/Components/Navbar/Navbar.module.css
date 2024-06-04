@@ -1,0 +1,128 @@
+.Navbar_container {
+    width: 100%;
+    height:clamp(0.3472375rem, 0rem + 5.5556vw, 34.7224375rem);
+    margin-top: 2%;
+}
+
+.Navbar_leftside_content {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar_Logo_container {
+    width: 5.94%;
+    height: 4.16%;
+    padding: 0.24vh 0.55vw 0.32vh 0.47vw;
+    margin-left: 1.88vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar_logo {
+    width: 100%;
+    height: 100%;
+}
+
+.Navbar_userDetails {
+    Width: 25.55%;
+    Height: 2.88%;
+    margin-left: 1.72vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Navbar_userDetails p {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: clamp(0.1041625rem, 0rem + 1.8667vw, 10.4166875rem);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Navbar_userDetails img {
+    width: 6.12%;
+    height: 6.12%;
+}
+
+.Navbar_userDetails span {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: clamp(.09765625rem, 0rem + 1.5625vw, 9.765625rem);
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Navbar_rightside_container {
+    Width: 28.52%;
+    margin-left: 34.1vw;
+    color: white;
+    display: flex;
+    gap: 1.5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar_timeString_userlogo {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Navbar_date_time {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.Navbar_timestring {
+    color: var(--White-white-400, #FFF);
+    white-space: nowrap;
+    text-shadow: 0.891px 0.891px 0.891px rgba(0, 0, 0, 0.10);
+    font-family: sans-serif;
+    font-size: clamp(0.2083375rem, 0rem + 3.3333vw, 20.8334375rem);
+    font-style: normal;
+    font-weight: 275;
+}
+.Navbar_date_day{
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.01725rem, 0rem + 0.2578vw, 1.725rem);
+}
+.Navbar_date_day p {
+    color: var(--White-white-600, #E8E8E8);
+    text-shadow: 0.891px 0.891px 0.891px rgba(0, 0, 0, 0.10);
+    font-family: popnis,sans-serif;
+    font-size: clamp(0.0694375rem, 0rem + 1.1111vw, 6.9444375rem);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.Line {
+    width: 100%;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Line img {
+    width: 100%;
+    height: 100%;
+}
+
+#Navbar_profile_icon {
+    height: clamp(0.234375rem, 0rem + 3.75vw, 23.4375rem);
+  
+}
+
+.sunnyday_logo{
+    width: clamp(0.1388875rem, 0rem + 3.2222vw, 13.8889375rem);
+}
